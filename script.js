@@ -32,7 +32,7 @@ function clear_last(){
 
 function init_buttons(){
     for(const child of buttons.children){
-        if(child.id != "ac" && child.id != "c"){
+        if(child.classList.contains("number")){
             child.onclick = () => add_number(Number(child.innerHTML));
         }
     }

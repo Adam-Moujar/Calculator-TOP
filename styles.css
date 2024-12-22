@@ -20,9 +20,16 @@ body{
     gap: 50px
 }
 
+.prev_output{
+    width: 300px;
+    height: 20px;
+    background-color: #808080;
+    text-align: right;
+}
+
 .calculator_output{
     width: 300px;
-    height: 80px;
+    height: 60px;
     background-color: #808080;
     text-align: right;
 }

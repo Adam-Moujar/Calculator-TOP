@@ -9,12 +9,15 @@
 <body>
     <div id="content">
         <div class ="calculator">
-            <div class = "calculator_output">
+            <div class = "outputs">
+                <div class = "prev_output"></div>
+                <div class = "calculator_output">
+            </div>
             </div>
             <div class = "buttons">
                 <button class = "child" id="ac">AC</button>
-                <button class = "child operator" id="change_sign">+/-</button>
-                <button class = "child operator" id="remainder">%</button>
+                <button class = "child unary" id="change_sign">+/-</button>
+                <button class = "child unary" id="percentage">%</button>
                 <button class = "child operator" id="divide">/</button>
                 <button class = "child number" id="num_7">7</button>
                 <button class = "child number" id="num_8">8</button>
@@ -29,7 +32,7 @@
                 <button class = "child number" id="num_3">3</button>
                 <button class = "child operator" id="substract">-</button>
                 <button class = "child number" id="num_0">0</button>
-                <button class = "child operator" id="decimal">.</button>
+                <button class = "child number" id="decimal">.</button>
                 <button class = "child equal" id="equal">=</button>
             </div>
         </div>
